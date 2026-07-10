@@ -1,0 +1,25 @@
+body {
+    margin: 0px;
+    background-color:lightcyan;
+    padding: 0px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+#login-button {
+    margin-top: 25px;
+    margin-bottom: 15px;
+    background-color: azure;
+}
+
+#reg-button {
+    margin-bottom: 15px;
+    background-color: azure;
+}
+
+#login-button:hover,#reg-button:hover{
+    background-color: white;
+} 

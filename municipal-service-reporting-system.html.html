@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Municipality Service Reporting System</title>
+    <link rel="stylesheet" href="municipal-service-stylesheet.css">
+</head>
+<body>
+
+    <form action="municipal-service-reporting-system.html" method="get">
+
+        <div class="heading">
+            <h1>Municipality Service Reporting System</h1>
+
+            <div class="user-login">
+
+                <label for="role">Select Role:</label>
+                <select id="role" name="user">
+                    <option value="">--Choose Role--</option>
+                    <option value="Resident">Resident</option>
+                    <option value="Staff Member">Staff Member</option>
+                </select>
+
+                <br><br>
+
+                <label for="user-email-or-id">Email / ID:</label><br>
+                <input type="text" id="user-email-or-id" name="user-email-or-id" required>
+
+                <br><br>
+
+                <label for="password">Password:</label><br>
+                <input type="password" id="password" name="password" required>
+
+                <br><br>
+
+                <input type="submit" value="LOGIN" id="login-button">
+
+                <br><br>
+
+                <!-- Register Button -->
+                <a href="register.html">
+                    <button type="button" id="reg-button">REGISTER</button>
+                </a>
+
+            </div>
+        </div>
+
+    </form>
+
+</body>
+</html>
