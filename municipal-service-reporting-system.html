@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Municipality Service Reporting System</title>
+    <link rel="stylesheet" href="municipal-service-stylesheet.css">
+</head>
+<body>
+
+    <form action="municipal-service-reporting-system.html" method="post" class="reg-form">
+
+        <!-- LEFT SIDE -->
+        <div class="about">
+
+            <img src="emfuleni.webp" alt="Municipality Service Reporting System">
+
+            <h3>Welcome to Emfuleni Municipality Service Reporting</h3>
+
+            <p>
+                The Municipality Service Reporting System is a web-based application designed to improve communication between residents and the municipality.
+                The system provides a secure login and registration platform where users can access services based on their roles, such as municipality staff or residents.
+                Residents can report service delivery issues, submit requests, and track the progress of their reports, while municipality staff can manage, review, and resolve reported issues efficiently.
+                By digitizing the reporting process, the system reduces paperwork, improves response times, enhances transparency, and enables better service delivery to the community.
+            </p>
+
+        </div>
+
+        <!-- RIGHT SIDE -->
+        <div class="user-login">
+
+            <h2>Login</h2>
+
+            <label for="role">Select Role:</label>
+            <select id="role" name="user">
+                <option value="">--Choose Role--</option>
+                <option value="Resident">Resident</option>
+                <option value="Staff Member">Staff Member</option>
+            </select>
+
+            <br><br>
+
+            <label for="user-email-or-id">Email / ID:</label>
+            <input type="text" id="user-email-or-id" name="user-email-or-id" required>
+
+            <br><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <br><br>
+
+            <input type="submit" value="LOGIN" id="login-button">
+
+            <br><br>
+
+            <nav>
+                <a href="register-form.html">
+                    <p>New User? </p>
+                    <button type="button" id="reg-button">REGISTER</button>
+                </a>
+            </nav>
+
+        </div>
+
+    </form>
+
+</body>
+</html>
