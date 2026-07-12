@@ -30,7 +30,15 @@ User authentication
 Database integration
 Responsive design
 
+## Updates 
+- Redesigned the login page with a modern layout
+- Added a welcome section with municipality information
+- Improved the registration page UI
+- Updated HTML and CSS for better responsiveness and styling
+- Improved navigation between login and registration pages
+
 ## Author
 Sonwabiso Sihlobo
 Bachelor of Science in Information Technology
 North-West University
+
