@@ -31,11 +31,27 @@ Database integration
 Responsive design
 
 ## Updates 
-- Redesigned the login page with a modern layout
-- Added a welcome section with municipality information
-- Improved the registration page UI
-- Updated HTML and CSS for better responsiveness and styling
-- Improved navigation between login and registration pages
+## Version History
+### Version 1.0
+- Created the project structure.
+- Set up the HTML and CSS files.
+- Built the first version of the Municipality Service Reporting System.
+
+### Version 1.1
+- Created the login page.
+- Added the registration page.
+- Implemented role selection for Residents and Municipality Staff.
+- Added navigation between the login and registration pages.
+- Designed the initial user interface using HTML and CSS.
+
+### Version 1.2
+- Redesigned the login page with a modern split-screen layout.
+- Improved the registration portal user interface.
+- Added separate registration pages for Residents and Municipality Staff.
+- Updated the resident and staff registration page layouts.
+- Improved navigation between the login page and registration pages.
+- Refined the HTML structure and CSS styling.
+- Enhanced spacing, alignment, and overall user experience.
 
 ## Author
 Sonwabiso Sihlobo
