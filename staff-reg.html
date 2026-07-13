@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Staff Registration</title>
+    <link rel="stylesheet" href="staff.css">
+</head>
+<body>
+
+<form action="staff-reg.html" method="post">
+
+    <!-- Left Side -->
+    <div class="left-panel">
+        <div class="overlay">
+            <img src="emfuleni.webp" alt="Emfuleni Municipality Logo">
+
+            <h1>Welcome to Emfuleni Municipality</h1>
+
+            <p>
+                Create your municipality staff account to manage service requests, 
+                resolve reported issues, update case progress, 
+                and deliver efficient municipal services to the community.
+            </p>
+        </div>
+    </div>
+
+    <!-- Right Side -->
+    <section class="staff-reg">
+
+        <h2>Municipality Staff Registration</h2>
+        <p class="subtitle">Please complete all the required fields.</p>
+
+        <label for="name">Full Name</label>
+        <input id="name" type="text" name="name" required>
+
+        <label for="surname">Surname</label>
+        <input id="surname" type="text" name="surname" required>
+
+        <label for="email">Email Address</label>
+        <input id="email" type="email" name="email" required>
+
+        <label for="number">Contact Number</label>
+        <input id="number" type="tel" name="number" required>
+
+        <label for="town">Town</label>
+        <select id="town" name="town">
+            <option>Choose your town</option>
+            <option>Vanderbijlpark</option>
+            <option>Vereeniging</option>
+            <option>Sebokeng</option>
+            <option>Evaton</option>
+            <option>Sharpeville</option>
+            <option>Boipatong</option>
+            <option>Bophelong</option>
+            <option>Tshepiso</option>
+        </select>
+
+        <label for="address">Staff Residential Address</label>
+        <input id="address" type="text" name="address" required>
+
+        <button type="submit">Register</button>
+
+    </section>
+
+</form>
+
+</body>
+</html>

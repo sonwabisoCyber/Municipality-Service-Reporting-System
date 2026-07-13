@@ -1,60 +1,180 @@
-body {
-    background-color: white;
-    font-family: 'Raleway', sans-serif;
-    margin: 0 auto;
-    padding: 0;
+/* Reset */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
 }
 
-h3 {
-    margin-right: 100px;
-    text-align: center;
+/* Body */
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:#f5f7fb;
+    color:#222;
 }
 
-.my-form {
-    display: flex;              
-    justify-content: center;    
-    align-items: center;        
-    gap: 30px;                  
-    margin-top: 50px;
+/* Header */
+
+.portal{
+    background:#0056b3;
+    color:white;
+    text-align:center;
+    padding:18px;
+    box-shadow:0 3px 10px rgba(0,0,0,.2);
 }
 
-.reg {
-    width: 300px;
-    height: 300px;
-    padding: 20px;
-    background-color: white;
-    border: 1px solid #ddd;
-    border-radius: 15px;
-    text-align: center;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-    display: flex;
-    flex-direction: column;
-    margin-left: 50px;
+.portal h2{
+    font-size:30px;
 }
 
-.reg a {
-    margin-top: 10px;
+/* Main */
+
+main{
+    max-width:1200px;
+    margin:auto;
+    padding:50px 20px;
 }
 
-.reg h2 {
-    margin-bottom: 15px;
+h1{
+    text-align:center;
+    font-size:60px;
+    margin-bottom:10px;
 }
 
-.reg p {
-    margin-bottom: 20px;
-    flex-grow: 1;
+.subtitle{
+    text-align:center;
+    font-size:24px;
+    color:#555;
+    margin-bottom:60px;
 }
 
-h3 {
-    background-color: #0066cc;
+/* Cards */
+
+.my-form{
+    display:flex;
+    justify-content:center;
+    gap:50px;
+    flex-wrap:wrap;
 }
 
-h1, p {
-    text-align: center;
+.reg{
+
+    width:360px;
+    height:450px;
+
+    background:white;
+
+    border-radius:18px;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.12);
+
+    padding:35px;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+
+    text-align:center;
+
+    transition:.3s;
 }
 
-.logos {
-    height: 70px;
-    width: 150px;
-    justify-content: center;
+.reg:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 15px 35px rgba(0,0,0,.18);
+
+}
+
+/* Images */
+
+.logos{
+
+    width:100px;
+    height:100px;
+
+    object-fit:contain;
+
+    margin:0 auto 15px;
+
+}
+
+/* Heading */
+
+.reg h3{
+
+    font-size:32px;
+
+    color:#0056b3;
+
+}
+
+/* Paragraph */
+
+.reg p{
+
+    font-size:19px;
+
+    line-height:1.7;
+
+    color:#444;
+
+}
+
+/* Button */
+
+.btn{
+
+    display:inline-block;
+
+    padding:14px 20px;
+
+    background:#0056b3;
+
+    color:white;
+
+    text-decoration:none;
+
+    border-radius:10px;
+
+    font-size:18px;
+
+    font-weight:bold;
+
+    transition:.3s;
+
+}
+
+.btn:hover{
+
+    background:#003d80;
+
+}
+
+/* Responsive */
+
+@media(max-width:900px){
+
+.my-form{
+
+flex-direction:column;
+
+align-items:center;
+
+}
+
+h1{
+
+font-size:45px;
+
+}
+
+.subtitle{
+
+font-size:20px;
+
+}
+
 }

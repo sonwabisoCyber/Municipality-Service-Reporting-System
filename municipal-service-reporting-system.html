@@ -4,66 +4,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Municipality Service Reporting System</title>
+
     <link rel="stylesheet" href="municipal-service-stylesheet.css">
 </head>
 <body>
 
-    <form action="municipal-service-reporting-system.html" method="post" class="reg-form">
+<form action="municipal-service-reporting-system.html" method="post" class="reg-form">
 
-        <!-- LEFT SIDE -->
-        <div class="about">
+    <!-- Left Panel -->
+    <div class="about">
 
-            <img src="emfuleni.webp" alt="Municipality Service Reporting System">
+        <img src="emfuleni.webp" alt="Emfuleni Municipality Logo">
 
-            <h3>Welcome to Emfuleni Municipality Service Reporting</h3>
+        <h3>Welcome to Emfuleni Municipality Service Reporting</h3>
 
-            <p>
-                The Municipality Service Reporting System is a web-based application designed to improve communication between residents and the municipality.
-                The system provides a secure login and registration platform where users can access services based on their roles, such as municipality staff or residents.
-                Residents can report service delivery issues, submit requests, and track the progress of their reports, while municipality staff can manage, review, and resolve reported issues efficiently.
-                By digitizing the reporting process, the system reduces paperwork, improves response times, enhances transparency, and enables better service delivery to the community.
-            </p>
+        <p>
+            The Municipality Service Reporting System is a secure web-based platform that allows residents and municipality staff to access municipal services online. Residents can report service delivery issues, submit requests, and monitor the progress of their reports, while municipality staff can efficiently review, manage, and resolve reported cases. The system improves communication, increases transparency, reduces paperwork, and supports faster service delivery across the Emfuleni Local Municipality.
+        </p>
 
-        </div>
+    </div>
 
-        <!-- RIGHT SIDE -->
-        <div class="user-login">
+    <!-- Right Panel -->
+    <div class="user-login">
 
-            <h2>Login</h2>
+        <h2>Login</h2>
 
-            <label for="role">Select Role:</label>
-            <select id="role" name="user">
-                <option value="">--Choose Role--</option>
-                <option value="Resident">Resident</option>
-                <option value="Staff Member">Staff Member</option>
-            </select>
+        <label for="role">Select Role</label>
 
-            <br><br>
+        <select id="role" name="user" required>
+            <option value="">--Choose Role--</option>
+            <option value="Resident">Resident</option>
+            <option value="Staff Member">Municipality Staff</option>
+        </select>
 
-            <label for="user-email-or-id">Email / ID:</label>
-            <input type="text" id="user-email-or-id" name="user-email-or-id" required>
+        <label for="user-email-or-id">Email / ID</label>
 
-            <br><br>
+        <input
+            type="text"
+            id="user-email-or-id"
+            name="user-email-or-id"
+            placeholder="Enter your Email or ID"
+            required
+        >
 
-            <label for="password">Password:</label>
-            <input type="password" id="password" name="password" required>
+        <label for="password">Password</label>
 
-            <br><br>
+        <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Enter your password"
+            required
+        >
 
-            <input type="submit" value="LOGIN" id="login-button">
+        <input
+            type="submit"
+            value="LOGIN"
+            id="login-button"
+        >
 
-            <br><br>
+        <nav>
+            <a href="register-form.html">
+                Don't have an account? Register here
+            </a>
+        </nav>
 
-            <nav>
-                <a href="register-form.html">
-                    <p>New User? </p>
-                    <button type="button" id="reg-button">REGISTER</button>
-                </a>
-            </nav>
+    </div>
 
-        </div>
-
-    </form>
+</form>
 
 </body>
 </html>

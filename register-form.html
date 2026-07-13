@@ -3,33 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registration Form</title>
+    <title>Emfuleni Municipality Registration</title>
     <link rel="stylesheet" href="register.css">
 </head>
+
 <body>
 
-    <h3 class="portal">Emfuleni Municipality Registration Portal</h3>
+<header class="portal">
+    <h2>Emfuleni Municipality Registration Portal</h2>
+</header>
 
-    <form action="municipal-service-reporting-system.html" method="post">
-        <h1>Register</h1>
-        <p>Choose an Account</p>
-        <section class="my-form">
-            <div class="reg">
-                <img src="emfuleni.webp" alt="Municipality logo" class="logos">
-                <h4>Municipality Staff</h4> 
-                <p>Register as a Staff member to access internal tools and manage municipality service</p>
-                <br><br>
-                 <a href="staff-register.html">Continue</a>
-            </div>
-            <div class="reg">
-                <img src="people.webp" alt="Resident" class="logos">
-                <h4>Resident</h4> 
-                <p>Register as a resident to access services, make request, reports issues and stay informed<p>
-                <br><br>
-                <a href="resident-register.html" class="resid">Continue</a>
-            </div>
-        </section>
-    </form>
+<main>
+
+    <h1>Register</h1>
+    <p class="subtitle">Choose an Account</p>
+
+    <section class="my-form">
+
+        <!-- Municipality Staff -->
+        <div class="reg">
+
+            <img src="emfuleni.webp" alt="Municipality Logo" class="logos">
+
+            <h3>Municipality Staff</h3>
+
+            <p>
+                Register as a municipality staff member to access internal tools,
+                manage service requests, and resolve reported issues.
+            </p>
+
+            <a href="staff-reg.html" class="btn">
+                Continue as Staff
+            </a>
+
+        </div>
+
+        <!-- Resident -->
+        <div class="reg">
+
+            <img src="people.webp" alt="Resident" class="logos">
+
+            <h3>Resident</h3>
+
+            <p>
+                Register as a resident to submit service requests,
+                report municipal issues, and track the progress of your reports.
+            </p>
+
+            <a href="resident-reg.html" class="btn">
+                Continue as Resident
+            </a>
+
+        </div>
+
+    </section>
+
+</main>
 
 </body>
 </html>
