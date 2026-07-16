@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Resident Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="report-issue.css">
+</head>
+
+<body>
+
+    <!-- LEFT SIDEBAR -->
+    <section class="left-side">
+
+        <div class="emfuleni-muni">
+
+            <img src="emfuleni-logo.jpg" alt="Emfuleni Municipality Logo" id="emfuleni">
+
+            <nav>
+                <a href="#dashboard"><p>Dashboard</p></a>
+
+                <a href="#report-issue"><p>Report Issue</p></a>
+
+                <a href="#my-issue"><p>My Issues</p></a>
+
+                <a href="#notifications"><p>Notifications</p></a>
+
+                <a href="#help-support"><p>Help and Support</p></a>
+
+                <a href="#logout"><p>Logout</p></a>
+            </nav>
+
+            <p>
+                Working together for a cleaner, safer, and better
+                <strong>Emfuleni</strong>
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- MAIN CONTENT -->
+    <section class="resident-dash">
+
+        <span id="dash-res">Resident Dashboard</span>
+        <span id="res">Resident</span>
+
+        <hr>
+
+        <form class="address-issue" action="resident-dashboard.html" method="post">
+
+            <h4><strong>Report Municipal Issue</strong></h4>
+
+            <br>
+
+            <p>
+                <em>Please provide the details below to help us address the issue quickly.</em>
+            </p>
+
+            <div class="fill-details">
+
+                <!-- Issue Category -->
+                <label for="issue-category">1. Issue Category</label>
+
+                <select id="issue-category" name="category" required>
+                    <option value="">Select Category</option>
+                    <option value="Roads">Roads</option>
+                    <option value="Electricity">Electricity</option>
+                    <option value="Water">Water</option>
+                </select>
+
+                <br><br>
+
+                <!-- Issue Type -->
+                <label for="issue-type">2. Issue Type</label>
+
+                <select id="issue-type" name="type" required>
+                    <option value="">Select Issue Type</option>
+                    <option value="No Water Supply">No Water Supply</option>
+                    <option value="Pothole">Pothole</option>
+                    <option value="Exposed Electrical Cables">Exposed Electrical Cables</option>
+                    <option value="Electricity Outage">Electricity Outage</option>
+                    <option value="Electricity Meter Problem">Electricity Meter Problem</option>
+                </select>
+
+                <br><br>
+
+                <!-- Town -->
+                <label for="town">3. Location / Town</label>
+
+                <select id="town" name="location" required>
+                    <option value="">Choose your town</option>
+                    <option value="Vanderbijlpark">Vanderbijlpark</option>
+                    <option value="Vereeniging">Vereeniging</option>
+                    <option value="Sebokeng">Sebokeng</option>
+                    <option value="Evaton">Evaton</option>
+                    <option value="Sharpeville">Sharpeville</option>
+                    <option value="Boipatong">Boipatong</option>
+                    <option value="Bophelong">Bophelong</option>
+                    <option value="Tshepiso">Tshepiso</option>
+                </select>
+
+                <br><br>
+
+                <!-- Street -->
+                <label for="street-name">4. Street Name</label>
+
+                <input
+                    type="text"
+                    id="street-name"
+                    name="street-name"
+                    placeholder="Enter street name"
+                    required>
+
+                <br><br>
+
+                <!-- Severity -->
+                <p>5. Severity</p>
+
+                <input type="radio" id="low" name="severity" value="Low" required>
+                <label for="low">Low</label>
+
+                <input type="radio" id="medium" name="severity" value="Medium">
+                <label for="medium">Medium</label>
+
+                <input type="radio" id="high" name="severity" value="High">
+                <label for="high">High</label>
+
+                <br><br>
+
+                <!-- Description -->
+                <label for="description">6. Description</label>
+
+                <textarea
+                    id="description"
+                    name="description"
+                    rows="6"
+                    maxlength="300"
+                    placeholder="Describe the issue"
+                    required></textarea>
+
+                <br><br>
+
+                <!-- Buttons -->
+                <input type="submit" value="Submit Issue" id="sub-issue">
+
+                <input type="reset" value="Clear Form" id="cancel">
+
+            </div>
+
+        </form>
+
+    </section>
+
+</body>
+
+</html>
