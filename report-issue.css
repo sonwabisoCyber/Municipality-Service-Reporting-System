@@ -166,7 +166,7 @@ textarea{
 =========================== */
 
 #sub-issue{
-    background:#ffc107;
+    background:#0b5ed7;
     color:#003366;
     border:none;
     padding:15px;
@@ -178,12 +178,12 @@ textarea{
 }
 
 #sub-issue:hover{
-    background:#ffb300;
+    background: lightcyan;
 }
 
 #cancel{
-    background:#dc3545;
-    color:white;
+    background:#0b5ed7;
+    color:#003366;
     border:none;
     padding:15px;
     font-size:18px;
@@ -193,8 +193,8 @@ textarea{
     transition:.3s;
 }
 
-#cancel:hover{
-    background:#bb2d3b;
+#cancel:hover {
+    background:lightcyan
 }
 
 /* ===========================

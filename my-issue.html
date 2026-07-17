@@ -1,0 +1,130 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="my-issue.css">
+    </head>
+
+    <body>
+        <!-- LEFT SIDEBAR -->
+        <section class="left-side">
+
+            <div class="emfuleni-muni">
+
+                <img src="emfuleni-logo.jpg" alt="Emfuleni Municipality Logo" id="emfuleni">
+
+                <nav>
+                    <a href="#dashboard"><p>Dashboard</p></a>
+
+                    <a href="report-issue.html"><p>Report Issue</p></a>
+
+                    <a href="#my-issue"><p>My Issues</p></a>
+
+                    <a href="#notifications"><p>Notifications</p></a>
+
+                    <a href="#help-support"><p>Help and Support</p></a>
+
+                    <a href="#logout"><p>Logout</p></a>
+                </nav>
+
+                <p>
+                    Working together for a cleaner, safer, and better
+                    <strong>Emfuleni</strong>
+                </p>
+
+            </div>
+
+        </section>
+
+        <!-- MAIN CONTENT -->
+        <section class="resident-dash">
+
+            <div class="top">
+                <span id="dash-res">Resident Dashboard</span>
+                <span id="res">Resident</span>
+            </div>
+
+            <hr>
+
+            <h4><strong>= My Issues</strong></h4>
+            <p>Track the status of all the issues that you have reported to the municipality</p>
+
+            <!-- Statistics -->
+            <section class="stats">
+
+                <div class="card">
+                    <p>Total Issues</p>
+                </div>
+
+                <div class="card">
+                    <p>Resolved</p>
+                </div>
+
+                <div class="card">
+                    <p>In Progress</p>
+                </div>
+
+                <div class="card">
+                    <p>Pending</p>
+                </div>
+
+            </section>
+
+            <div id="filter">
+                <label for="issue-filter" id="lbl-filter">Filter</label>
+
+                <select name="search-issue" id="issue-filter">
+                    <option value="categories">All categories</option>
+                    <option value="water">Water</option>
+                    <option value="roads">Roads</option>
+                    <option value="electricity">Electricity</option>
+                </select>
+            </div>
+
+            <!-- Recent Issues -->
+            <section class="table">
+
+                <h3>Recent Issues</h3>
+
+                <table>
+
+                    <thead>
+                        <tr>
+                            <th>Issue ID</th>
+                            <th>Category</th>
+                            <th>Description</th>
+                            <th>Location</th>
+                            <th>Status</th>
+                            <th>Date Reported</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+            </section>
+            <br><br>
+            <footer>
+                <nav><a href="report-issue.html" id="new-issue">+ Report Issue</a></nav>
+            </footer>
+        </section>
+    </body>
+</html>
