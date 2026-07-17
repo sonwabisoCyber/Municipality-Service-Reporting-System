@@ -52,6 +52,16 @@ Responsive design
 - Improved navigation between the login page and registration pages.
 - Refined the HTML structure and CSS styling.
 - Enhanced spacing, alignment, and overall user experience.
+  
+- ### Version 1.3
+- Added Resident Dashboard with stats cards
+- Built Report Issue form with category, type, location and priority
+- Added My Issues page with filter and issues table
+- Built Staff Dashboard with filter and recent issues table
+- Completed full frontend user interface
+- Applied consistent Emfuleni branding across all pages
+
+  
 
 ## Author
 Sonwabiso Sihlobo
