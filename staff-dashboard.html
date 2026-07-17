@@ -1,0 +1,126 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="staff-dashboard.css">
+    </head>
+    <body>
+
+        <!-- LEFT SIDEBAR -->
+    <section class="left-side">
+
+        <div class="emfuleni-muni">
+
+            <img src="emfuleni-logo.jpg" alt="Emfuleni Municipality Logo" id="emfuleni">
+
+            <nav>
+                <a href="#dashboard"><p>Dashboard</p></a>
+
+                <a href="#notifications"><p>Notifications</p></a>
+
+                <a href="#help-support"><p>Help and Support</p></a>
+
+                <a href="municipal-service-reporting-system.html"><p>Logout</p></a>
+            </nav>
+
+            <p>
+                Working together for a cleaner, safer, and better
+                <strong>Emfuleni</strong>
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- MAIN CONTENT -->
+    <section class="staff-dash">
+
+        <span id="dash-staff">Staff Dashboard</span>
+        <span id="staff">Municipality Staff</span>
+
+        <hr>
+
+        <h4>Welcome back, Staff Administrator</h4>
+        <p>Department: </p>
+
+        <!-- Statistics -->
+        <section class="stats">
+
+            <div class="card">
+                <p>Total Issues</p>
+            </div>
+
+            <div class="card">
+                <p>Resolved</p>
+            </div>
+
+            <div class="card">
+                <p>In Progress</p>
+            </div>
+
+            <div class="card">
+                <p>Pending</p>
+            </div>
+
+                <div id="filter">
+                <label for="issue-filter" id="lbl-filter">Filter</label>
+
+                <select name="search-issue" id="issue-filter">
+                    <option value="categories">All categories</option>
+                    <option value="water">Water</option>
+                    <option value="roads">Roads</option>
+                    <option value="electricity">Electricity</option>
+                </select> 
+
+                <select name="status" id="status-search">
+                    <option value="total Issues">Totals Issues</option>
+                    <option value="resolved">Resolved Issues</option>
+                    <option value="in progress">In Progress</option>
+                    <option value="pending">Pending</option>
+                </select>
+            </div>
+
+        </section>
+
+        <!-- Recent Issues -->
+        <section class="table">
+
+            <h3>Recent Issues</h3>
+
+            <table>
+
+                <thead>
+                    <tr>
+                        <th>Issue ID</th>
+                        <th>Title</th>
+                        <th>Category</th>
+                        <th>Location</th>
+                        <th>Reported By</th>
+                        <th>Date Reported</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </section>
+    </body>
+</html>
